@@ -1,0 +1,33 @@
+{
+  "name": "CyberShield America",
+  "version": "1.0.0",
+  "description": "Comprehensive security monitoring and alert system for America",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "security",
+    "monitoring",
+    "alerts",
+    "cybersecurity",
+    "dashboard"
+  ],
+  "author": "dprater135-sys",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dprater135-sys/CyberShieldAmerica.git"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
